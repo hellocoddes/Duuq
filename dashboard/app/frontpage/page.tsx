@@ -1,15 +1,15 @@
 import React from 'react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Calendar, Upload, Zap, Shield, Eye, AlertTriangle, ChevronRight, ArrowRight } from 'lucide-react'
+import { Upload, AlertTriangle, ChevronRight, ArrowRight, Eye } from 'lucide-react'
 import Link from 'next/link'
 import "../globals.css";
+import Image from 'next/image'
 
 
 export default function LandingPage() {
@@ -87,7 +87,7 @@ export default function LandingPage() {
               <div className="w-3 h-3 rounded-full bg-green-500" />
             </div>
             <div className="pt-8">
-              <img 
+              <Image
                 src="https://github.com/hellocoddes/Duuq/blob/main/dashboard/app/frontpage/image.png?raw=true" 
                 alt="KiwqGuard Dashboard" 
                 className="w-full h-full object-cover rounded-b-2xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300"

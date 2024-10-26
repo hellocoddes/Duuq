@@ -3,7 +3,6 @@
 import React from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { AlertCircle, Users, ShieldAlert, Activity } from 'lucide-react'
@@ -34,7 +33,7 @@ const recentIncidents = [
 
 export default function DashboardPage() {
   return (
-    <div className="w-full mt-12 px-4 space-y-4">      
+    <div className="w-full mt-12 px-4 space-y-4 font-sans">      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">

@@ -11,7 +11,6 @@ import {
   SidebarProvider,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { Input } from "@/components/ui/input";
 import { usePathname, useRouter } from 'next/navigation';
 import routes from '../../routes'; // Import the routes from the routes file
 import { Radio } from "lucide-react";
